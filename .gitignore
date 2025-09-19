@@ -1,0 +1,36 @@
+# === STM32CubeIDE / Eclipse ===
+.settings/
+*.launch
+*.log
+
+# === Carpetas de compilación comunes ===
+/Debug/
+/Release/
+/build/
+/out/
+/bin/
+/obj/
+
+# === Artefactos de compilación ===
+*.o
+*.d
+*.elf
+*.hex
+*.bin
+*.map
+*.lst
+*.lss
+*.su
+
+# === AVR / Microchip Studio outputs ===
+ATmega328p/**/Debug/
+ATmega328p/**/Release/
+ATmega328p/**/*.o
+ATmega328p/**/*.elf
+ATmega328p/**/*.hex
+ATmega328p/**/*.map
+ATmega328p/**/*.lss
+
+# === Basura del sistema ===
+.DS_Store
+Thumbs.db
